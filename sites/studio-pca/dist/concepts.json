@@ -1,0 +1,80 @@
+[
+  {
+    "id": "run",
+    "cat": "compute",
+    "category": "Menjalankan aplikasi",
+    "name": "Cloud Run service",
+    "terms": "container http api compute serverless",
+    "function": "Menjalankan container yang melayani request HTTP/gRPC dengan platform terkelola.",
+    "choose": "Mulai mengevaluasi ketika aplikasi request-based ingin mengurangi pekerjaan mengelola server.",
+    "alternative": "Bandingkan dengan GKE bila membutuhkan kontrol Kubernetes, atau Compute Engine bila membutuhkan kontrol VM.",
+    "limit": "Filesystem lokal container tidak menjadi penyimpanan permanen. Nilai konfigurasi scaling dan batas downstream.",
+    "cue": "Request → container",
+    "source": "https://docs.cloud.google.com/run/docs/overview/what-is-cloud-run"
+  },
+  {
+    "id": "sql",
+    "cat": "data",
+    "category": "Menyimpan transaksi",
+    "name": "Cloud SQL",
+    "terms": "mysql postgresql sql server database relational transaksi",
+    "function": "Relational database terkelola untuk MySQL, PostgreSQL, dan SQL Server.",
+    "choose": "Aplikasi membutuhkan engine yang familiar dan ingin mengurangi pekerjaan pengelolaan platform database.",
+    "alternative": "Bandingkan kemudian dengan Spanner dan Firestore berdasarkan transaksi, skala, dan model data.",
+    "limit": "Tetap tentukan kapasitas, HA, koneksi, akses, serta kebutuhan backup dan recovery.",
+    "cue": "Relational engine yang familiar",
+    "source": "https://docs.cloud.google.com/sql/docs/mysql/introduction"
+  },
+  {
+    "id": "bigquery",
+    "cat": "data",
+    "category": "Menganalisis histori",
+    "name": "BigQuery",
+    "terms": "sql analytics analitik data warehouse agregasi",
+    "function": "Platform untuk menganalisis data menggunakan SQL dan kemampuan analitik lainnya.",
+    "choose": "Pertanyaan berfokus pada agregasi dan analisis histori dengan infrastruktur terkelola.",
+    "alternative": "Bedakan dengan database yang melayani transaksi aplikasi.",
+    "limit": "Jangan menganggap semua query atau pola transaksi cocok. Evaluasi pemindaian data, workload, dan biaya.",
+    "cue": "Histori → agregasi",
+    "source": "https://docs.cloud.google.com/bigquery/docs/introduction"
+  },
+  {
+    "id": "pubsub",
+    "cat": "integration",
+    "category": "Menghubungkan proses",
+    "name": "Pub/Sub",
+    "terms": "publisher subscriber messaging asynchronous queue event integrasi",
+    "function": "Komunikasi event asynchronous antara publisher dan subscriber.",
+    "choose": "Proses perlu berjalan independen dan perubahan beban tidak seharusnya memaksa semua komponen menunggu.",
+    "alternative": "Bandingkan dengan pemanggilan sinkron atau perintah pekerjaan bertarget.",
+    "limit": "Pahami delivery, retry, dan pemrosesan duplikasi sesuai konfigurasi yang dipakai.",
+    "cue": "Publish → subscriber bekerja",
+    "source": "https://docs.cloud.google.com/pubsub/docs/overview"
+  },
+  {
+    "id": "vpc",
+    "cat": "network",
+    "category": "Menghubungkan workload",
+    "name": "VPC — Virtual Private Cloud",
+    "terms": "network jaringan subnet regional global firewall routing",
+    "function": "Jaringan virtual untuk menghubungkan resource sesuai aturan akses dan routing.",
+    "choose": "Mulai desain dengan lokasi workload, rentang IP, dan jalur komunikasi yang diperlukan.",
+    "alternative": "Satu atau beberapa VPC ditentukan oleh kebutuhan isolasi dan pengelolaan.",
+    "limit": "VPC bersifat global; subnet bersifat regional. Firewall dan routing tetap harus dirancang.",
+    "cue": "VPC global · subnet regional",
+    "source": "https://docs.cloud.google.com/vpc/docs/vpc"
+  },
+  {
+    "id": "wif",
+    "cat": "identity",
+    "category": "Mengelola identitas",
+    "name": "WIF — Workload Identity Federation",
+    "terms": "iam identity identitas aws credential token service account security keamanan",
+    "function": "Memakai identitas workload eksternal untuk memperoleh akses berumur pendek.",
+    "choose": "Workload di luar Google Cloud memiliki identitas yang dapat dipercaya dan perlu mengakses resource Google Cloud.",
+    "alternative": "Direct resource access atau service account impersonation, sesuai dukungan layanan.",
+    "limit": "Federasi tidak otomatis memberikan izin. Batasi trust dan IAM ke kebutuhan minimum.",
+    "cue": "Identitas dipercaya · izin dibatasi",
+    "source": "https://docs.cloud.google.com/iam/docs/workload-identity-federation"
+  }
+]

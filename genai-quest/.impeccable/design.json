@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T04:12:36.084392+00:00",
+  "title": "Design System: GenAI Quest",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Study Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0342 224.38)",
+          "oklch(26% 0.0342 224.38)",
+          "oklch(37% 0.0342 224.38)",
+          "oklch(49% 0.0342 224.38)",
+          "oklch(60% 0.0342 224.38)",
+          "oklch(72% 0.0342 224.38)",
+          "oklch(84% 0.0342 224.38)",
+          "oklch(95% 0.0342 224.38)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0272 224.14)",
+          "oklch(26% 0.0272 224.14)",
+          "oklch(37% 0.0272 224.14)",
+          "oklch(49% 0.0272 224.14)",
+          "oklch(60% 0.0272 224.14)",
+          "oklch(72% 0.0272 224.14)",
+          "oklch(84% 0.0272 224.14)",
+          "oklch(95% 0.0272 224.14)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Blue Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0032 197.10)",
+          "oklch(26% 0.0032 197.10)",
+          "oklch(37% 0.0032 197.10)",
+          "oklch(49% 0.0032 197.10)",
+          "oklch(60% 0.0032 197.10)",
+          "oklch(72% 0.0032 197.10)",
+          "oklch(84% 0.0032 197.10)",
+          "oklch(95% 0.0032 197.10)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26% 0.0000 0.00)",
+          "oklch(37% 0.0000 0.00)",
+          "oklch(49% 0.0000 0.00)",
+          "oklch(60% 0.0000 0.00)",
+          "oklch(72% 0.0000 0.00)",
+          "oklch(84% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Quiet Divider",
+        "tonalRamp": [
+          "oklch(15% 0.0105 219.60)",
+          "oklch(26% 0.0105 219.60)",
+          "oklch(37% 0.0105 219.60)",
+          "oklch(49% 0.0105 219.60)",
+          "oklch(60% 0.0105 219.60)",
+          "oklch(72% 0.0105 219.60)",
+          "oklch(84% 0.0105 219.60)",
+          "oklch(95% 0.0105 219.60)"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Working Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0727 201.34)",
+          "oklch(26% 0.0727 201.34)",
+          "oklch(37% 0.0727 201.34)",
+          "oklch(49% 0.0727 201.34)",
+          "oklch(60% 0.0727 201.34)",
+          "oklch(72% 0.0727 201.34)",
+          "oklch(84% 0.0727 201.34)",
+          "oklch(95% 0.0727 201.34)"
+        ]
+      },
+      "teal-dark": {
+        "role": "primary",
+        "displayName": "Deep Rail Teal",
+        "tonalRamp": [
+          "oklch(15% 0.0532 206.42)",
+          "oklch(26% 0.0532 206.42)",
+          "oklch(37% 0.0532 206.42)",
+          "oklch(49% 0.0532 206.42)",
+          "oklch(60% 0.0532 206.42)",
+          "oklch(72% 0.0532 206.42)",
+          "oklch(84% 0.0532 206.42)",
+          "oklch(95% 0.0532 206.42)"
+        ]
+      },
+      "mint": {
+        "role": "secondary",
+        "displayName": "Diagram Mint",
+        "tonalRamp": [
+          "oklch(15% 0.0258 184.71)",
+          "oklch(26% 0.0258 184.71)",
+          "oklch(37% 0.0258 184.71)",
+          "oklch(49% 0.0258 184.71)",
+          "oklch(60% 0.0258 184.71)",
+          "oklch(72% 0.0258 184.71)",
+          "oklch(84% 0.0258 184.71)",
+          "oklch(95% 0.0258 184.71)"
+        ]
+      },
+      "amber": {
+        "role": "tertiary",
+        "displayName": "Action Amber",
+        "tonalRamp": [
+          "oklch(15% 0.1206 76.69)",
+          "oklch(26% 0.1206 76.69)",
+          "oklch(37% 0.1206 76.69)",
+          "oklch(49% 0.1206 76.69)",
+          "oklch(60% 0.1206 76.69)",
+          "oklch(72% 0.1206 76.69)",
+          "oklch(84% 0.1206 76.69)",
+          "oklch(95% 0.1206 76.69)"
+        ]
+      },
+      "amber-ink": {
+        "role": "tertiary",
+        "displayName": "Amber Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0741 68.76)",
+          "oklch(26% 0.0741 68.76)",
+          "oklch(37% 0.0741 68.76)",
+          "oklch(49% 0.0741 68.76)",
+          "oklch(60% 0.0741 68.76)",
+          "oklch(72% 0.0741 68.76)",
+          "oklch(84% 0.0741 68.76)",
+          "oklch(95% 0.0741 68.76)"
+        ]
+      },
+      "blue": {
+        "role": "tertiary",
+        "displayName": "Practice Blue",
+        "tonalRamp": [
+          "oklch(15% 0.1190 264.74)",
+          "oklch(26% 0.1190 264.74)",
+          "oklch(37% 0.1190 264.74)",
+          "oklch(49% 0.1190 264.74)",
+          "oklch(60% 0.1190 264.74)",
+          "oklch(72% 0.1190 264.74)",
+          "oklch(84% 0.1190 264.74)",
+          "oklch(95% 0.1190 264.74)"
+        ]
+      },
+      "red": {
+        "role": "tertiary",
+        "displayName": "Feedback Red",
+        "tonalRamp": [
+          "oklch(15% 0.1337 22.43)",
+          "oklch(26% 0.1337 22.43)",
+          "oklch(37% 0.1337 22.43)",
+          "oklch(49% 0.1337 22.43)",
+          "oklch(60% 0.1337 22.43)",
+          "oklch(72% 0.1337 22.43)",
+          "oklch(84% 0.1337 22.43)",
+          "oklch(95% 0.1337 22.43)"
+        ]
+      },
+      "red-bg": {
+        "role": "neutral",
+        "displayName": "Error Field",
+        "tonalRamp": [
+          "oklch(15% 0.0197 21.36)",
+          "oklch(26% 0.0197 21.36)",
+          "oklch(37% 0.0197 21.36)",
+          "oklch(49% 0.0197 21.36)",
+          "oklch(60% 0.0197 21.36)",
+          "oklch(72% 0.0197 21.36)",
+          "oklch(84% 0.0197 21.36)",
+          "oklch(95% 0.0197 21.36)"
+        ]
+      },
+      "green": {
+        "role": "tertiary",
+        "displayName": "Feedback Green",
+        "tonalRamp": [
+          "oklch(15% 0.0771 161.01)",
+          "oklch(26% 0.0771 161.01)",
+          "oklch(37% 0.0771 161.01)",
+          "oklch(49% 0.0771 161.01)",
+          "oklch(60% 0.0771 161.01)",
+          "oklch(72% 0.0771 161.01)",
+          "oklch(84% 0.0771 161.01)",
+          "oklch(95% 0.0771 161.01)"
+        ]
+      },
+      "green-bg": {
+        "role": "neutral",
+        "displayName": "Correct Field",
+        "tonalRamp": [
+          "oklch(15% 0.0216 163.05)",
+          "oklch(26% 0.0216 163.05)",
+          "oklch(37% 0.0216 163.05)",
+          "oklch(49% 0.0216 163.05)",
+          "oklch(60% 0.0216 163.05)",
+          "oklch(72% 0.0216 163.05)",
+          "oklch(84% 0.0216 163.05)",
+          "oklch(95% 0.0216 163.05)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Page heading",
+        "purpose": "Primary page orientation."
+      },
+      "headline": {
+        "displayName": "Section heading",
+        "purpose": "Main content sections."
+      },
+      "title": {
+        "displayName": "Content title",
+        "purpose": "Modules, explanations and work groups."
+      },
+      "body": {
+        "displayName": "Reading text",
+        "purpose": "Shared bilingual content; reading paragraphs use line-height 1.8."
+      },
+      "label": {
+        "displayName": "Navigation label",
+        "purpose": "Desktop navigation labels; mobile scales to .82rem."
+      },
+      "button": {
+        "displayName": "Action label",
+        "purpose": "Legible controls with a firm weight."
+      },
+      "formula": {
+        "displayName": "Formula text",
+        "purpose": "Lab calculations and formulas."
+      }
+    },
+    "shadows": [
+      {
+        "name": "toast",
+        "value": "0 7px 25px #00000022",
+        "purpose": "Transient toast overlay only; ordinary panels stay flat."
+      }
+    ],
+    "motion": [
+      {
+        "name": "map-fill",
+        "value": "fill .15s ease-out",
+        "purpose": "Map rectangle fill only when reduced motion is not requested."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none!important;transition:none!important;scroll-behavior:auto",
+        "purpose": "Honor prefers-reduced-motion:reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile-stack",
+        "value": "800px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A distinct implemented action treatment; focus and hover match the current CSS.",
+      "html": "<button type=\"button\" class=\"ds-button-primary\">Buka lesson →</button>",
+      "css": ".ds-button-primary{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:16px;line-height:1.4;font-weight:650;padding:.6rem .95rem;border:1px solid var(--line,#d9e2e5);border-radius:9px;cursor:pointer;background:var(--teal,#075e63);color:var(--surface,#fff);border-color:var(--teal,#075e63);}.ds-button-primary:hover:not(:disabled){background:var(--teal-dark,#083e44);border-color:var(--teal,#075e63);}.ds-button-primary:focus-visible{outline:3px solid #bc6a13;outline-offset:4px;}.ds-button-primary:disabled{opacity:.58;cursor:default;}"
+    },
+    {
+      "name": "Amber continuation",
+      "kind": "button",
+      "refersTo": "button-gold",
+      "description": "A distinct implemented action treatment; focus and hover match the current CSS.",
+      "html": "<button type=\"button\" class=\"ds-button-gold\">Continue learning →</button>",
+      "css": ".ds-button-gold{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:16px;line-height:1.4;font-weight:650;padding:.6rem .95rem;border:1px solid var(--line,#d9e2e5);border-radius:9px;cursor:pointer;background:var(--amber,#f4bd68);color:#372b14;border-color:var(--amber,#f4bd68);}.ds-button-gold:hover:not(:disabled){background:#eaf3f2;border-color:var(--teal,#075e63);}.ds-button-gold:focus-visible{outline:3px solid #bc6a13;outline-offset:4px;}.ds-button-gold:disabled{opacity:.58;cursor:default;}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A distinct implemented action treatment; focus and hover match the current CSS.",
+      "html": "<button type=\"button\" class=\"ds-button-secondary\">Tampilan daftar accessible</button>",
+      "css": ".ds-button-secondary{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:16px;line-height:1.4;font-weight:650;padding:.6rem .95rem;border:1px solid var(--line,#d9e2e5);border-radius:9px;cursor:pointer;background:var(--surface,#fff);color:var(--ink,#172f38);}.ds-button-secondary:hover:not(:disabled){background:#eaf3f2;border-color:var(--teal,#075e63);}.ds-button-secondary:focus-visible{outline:3px solid #bc6a13;outline-offset:4px;}.ds-button-secondary:disabled{opacity:.58;cursor:default;}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Underlined inline action.",
+      "html": "<button type=\"button\" class=\"ds-text-action\">Reveal recall answer</button>",
+      "css": ".ds-text-action{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:16px;line-height:1.4;font-weight:650;padding:.6rem .95rem;border:1px solid var(--line,#d9e2e5);border-radius:9px;cursor:pointer;border:0;background:transparent;padding:.35rem 0;color:var(--teal,#075e63);text-decoration:underline;text-underline-offset:.2em;}.ds-text-action:hover:not(:disabled){border-color:var(--teal,#075e63);background:#eaf3f2;}.ds-text-action:focus-visible{outline:3px solid #bc6a13;outline-offset:4px;}"
+    },
+    {
+      "name": "Search field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Visible label and white field used by content search.",
+      "html": "<label class=\"ds-search-label\" for=\"ds-search\">Cari lesson<input id=\"ds-search\" class=\"ds-search\" type=\"search\" placeholder=\"Model, retrieval, safety…\"></label>",
+      "css": ".ds-search-label{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:16px;line-height:1.65;color:var(--ink,#172f38);display:block;}.ds-search{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);font-size:16px;line-height:1.65;display:block;margin-top:6px;max-width:100%;padding:.65rem .8rem;border:1px solid #a2b5bb;border-radius:8px;background:var(--surface,#fff);color:var(--ink,#172f38);}.ds-search:focus-visible{outline:3px solid #bc6a13;outline-offset:4px;}"
+    },
+    {
+      "name": "Study navigation",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Deep teal rail with mint current-page treatment.",
+      "html": "<nav aria-label=\"Study navigation\" class=\"ds-nav\"><a href=\"#dashboard\" aria-current=\"page\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M3 3h7v7H3zm11 0h7v7h-7zM3 14h7v7H3zm11 0h7v7h-7z\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>Dashboard</a><a href=\"#lessons\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1m0-15c3-2 6-2 9-1v15c-3-1-6-1-9 1V5Z\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>Lessons</a></nav>",
+      "css": ".ds-nav{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);display:flex;flex-direction:column;gap:5px;background:var(--teal-dark,#083e44);padding:22px;width:236px;}.ds-nav a{display:flex;align-items:center;gap:12px;color:#cee2e2;text-decoration:none;padding:11px 12px;border-radius:9px;font-size:.93rem;font-weight:600;line-height:1.65;}.ds-nav svg{width:20px;height:20px;flex-shrink:0;}.ds-nav a:hover{background:#17535a;color:#fff;}.ds-nav a[aria-current=page]{background:var(--mint,#d6eeea);color:#113e43;}.ds-nav a:focus-visible{outline:3px solid #bc6a13;outline-offset:4px;}@media(max-width:800px){.ds-nav{flex-direction:row;overflow:auto;width:auto;padding:18px 22px;gap:4px;}.ds-nav a{flex-shrink:0;padding:8px 10px;font-size:.82rem;gap:6px;}.ds-nav svg{width:16px;height:16px;}}"
+    },
+    {
+      "name": "Status badges",
+      "kind": "chip",
+      "refersTo": "status-badge",
+      "description": "Text carries the learning state alongside its tint.",
+      "html": "<div class=\"ds-badges\"><span class=\"ds-badge\">Belum dipelajari</span><span class=\"ds-badge ds-review\">Perlu review</span><span class=\"ds-badge ds-practiced\">Dilatih</span><span class=\"ds-badge ds-strong\">Bukti lebih kuat</span></div>",
+      "css": ".ds-badges{display:flex;gap:8px;flex-wrap:wrap;}.ds-badge{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);display:inline-block;border-radius:6px;font-size:.73rem;font-weight:650;line-height:1.65;padding:3px 7px;background:#e8eeee;color:#455c63;white-space:normal;}.ds-review{background:#fff0d8;color:#78501b;}.ds-practiced{background:#e6edf9;color:#345487;}.ds-strong{background:#d8eee2;color:#245c43;}"
+    },
+    {
+      "name": "Work panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "A quiet white container for grouped work, not a repeated-list wrapper.",
+      "html": "<section class=\"ds-panel\"><h2>Recall</h2><p>Jelaskan mengapa model memerlukan konteks yang relevan.</p></section>",
+      "css": ".ds-panel{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);padding:24px;border-radius:var(--radius,14px);background:var(--surface,#fff);color:var(--ink,#172f38);line-height:1.65;}.ds-panel h2{font-size:1.15rem;line-height:1.2;letter-spacing:-.025em;margin:0 0 .65rem;}.ds-panel p{font-size:16px;margin:.6rem 0 1.05rem;}"
+    },
+    {
+      "name": "Open learning row",
+      "kind": "custom",
+      "refersTo": "module-row",
+      "description": "A numbered module with a divider and underlined lesson link.",
+      "html": "<article class=\"ds-module\"><div class=\"ds-module-head\"><span class=\"ds-module-index\">1</span><div><h3>Model &amp; Bedrock</h3><p>Pilih cara memberi kemampuan pada model.</p></div></div><div class=\"ds-lesson-links\"><a href=\"#lesson/foundation\">Foundation models &amp; Bedrock</a></div></article>",
+      "css": ".ds-module{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);color:var(--ink,#172f38);line-height:1.65;border-top:1px solid var(--line,#d9e2e5);border-bottom:1px solid var(--line,#d9e2e5);padding:19px 0;}.ds-module-head{display:flex;gap:16px;align-items:center;}.ds-module-head h3{font-size:1.15rem;line-height:1.2;letter-spacing:-.025em;margin:0 0 6px;}.ds-module-head p{font-size:.88rem;margin:0;color:var(--muted,#52666e);}.ds-module-index{font-size:.9rem;font-variant-numeric:tabular-nums;border:1px solid #a4bcbf;border-radius:50%;width:32px;height:32px;display:grid;place-items:center;flex-shrink:0;}.ds-lesson-links{margin:15px 0 0 48px;}.ds-lesson-links a{font-size:.8rem;text-decoration:none;border-bottom:1px solid #a4bcbb;color:var(--teal,#075e63);text-underline-offset:.2em;}.ds-lesson-links a:hover{text-decoration-thickness:2px;}.ds-lesson-links a:focus-visible{outline:3px solid #bc6a13;outline-offset:4px;}"
+    },
+    {
+      "name": "Concept map nodes",
+      "kind": "custom",
+      "refersTo": "map-node",
+      "description": "Mint selected concept and white related concept; the full diagram keeps a 710px minimum width.",
+      "html": "<div class=\"ds-map\"><svg class=\"ds-map-svg\" viewBox=\"0 0 710 180\" role=\"img\" aria-label=\"Foundation model connects to RAG\"><a href=\"#lesson/foundation\" aria-current=\"true\"><rect x=\"20\" y=\"40\" width=\"250\" height=\"68\" rx=\"10\"/><text x=\"145\" y=\"69\" text-anchor=\"middle\">Foundation models</text><text class=\"ds-edge-text\" x=\"145\" y=\"91\" text-anchor=\"middle\">provides capability</text></a><path d=\"M270 74h150m-10-6 10 6-10 6\"/><a href=\"#lesson/rag\"><rect x=\"420\" y=\"40\" width=\"250\" height=\"68\" rx=\"10\"/><text x=\"545\" y=\"69\" text-anchor=\"middle\">RAG</text><text class=\"ds-edge-text\" x=\"545\" y=\"91\" text-anchor=\"middle\">adds external evidence</text></a></svg></div>",
+      "css": ".ds-map{background:#e4eeed;border-radius:var(--radius,14px);padding:18px;overflow:auto;min-width:0;}.ds-map-svg{display:block;width:100%;min-width:710px;}.ds-map-svg text{font-family:var(--font,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif);fill:var(--teal-dark,#083e44);font-size:15px;font-weight:650;pointer-events:none;}.ds-map-svg .ds-edge-text{font-size:12px;font-weight:500;fill:#516f74;}.ds-map-svg rect{fill:#fff;stroke:#96b5b6;stroke-width:1.5;}.ds-map-svg a[aria-current=true] rect{fill:#bddfd7;stroke:var(--teal,#075e63);stroke-width:2.5;}.ds-map-svg a:focus rect{stroke:#b26413;stroke-width:4;}.ds-map-svg path{stroke:#7c9e9f;stroke-width:1.5;fill:none;}@media(prefers-reduced-motion:no-preference){.ds-map-svg a rect{transition:fill .15s ease-out;}}@media(prefers-reduced-motion:reduce){.ds-map-svg a rect{transition:none;}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Study Desk Atlas",
+    "overview": "A pale blue study desk pairs deep teal navigation with mint diagrams and amber actions. The bilingual learning atlas supports reading and operating: clear explanations, visible controls, connected concepts and evidence of practice. System type and open rows keep a content-heavy workspace calm and readable.",
+    "keyCharacteristics": [
+      "Pale working surface and a persistent teal anchor.",
+      "Open learning rows with restrained tonal panels.",
+      "Readable diagrams and explicit learning states."
+    ],
+    "rules": [
+      {
+        "name": "The Evidence Rule",
+        "body": "Pair learning states with words; color alone does not establish mastery or course coverage.",
+        "section": "colors"
+      },
+      {
+        "name": "The Open Row Rule",
+        "body": "Keep repeated lessons, modules, notes and review items on divided rows; reserve filled containers for grouped work, feedback and diagrams.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep bilingual explanations readable with the shared system font and generous paragraph spacing.",
+      "**Do** retain visible keyboard focus and the map's scrolling canvas plus list alternative.",
+      "**Do** label learning evidence and incomplete source coverage explicitly."
+    ],
+    "donts": [
+      "**Don't** replace open repeated rows with layers of filled cards.",
+      "**Don't** shrink the mobile map to fit the viewport at the expense of readable labels.",
+      "**Don't** present activity XP, a provisional schedule or mapped concepts as proof of exam readiness."
+    ]
+  }
+}

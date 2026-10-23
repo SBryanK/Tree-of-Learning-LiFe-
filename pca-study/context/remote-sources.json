@@ -1,0 +1,146 @@
+[
+  {
+    "id": "cert",
+    "url": "https://cloud.google.com/learn/certification/cloud-architect/",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Main certification content including standard and renewal information; navigation/footer not study content.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "guide",
+    "url": "https://services.google.com/fh/files/misc/professional_cloud_architect_exam_guide_english.pdf",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "full",
+    "coverage": "All pages; see matching local source note and PDF visual overview.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "framework",
+    "url": "https://docs.cloud.google.com/architecture/framework",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Overview, pillars and core principles shown by browser text. Framework subtree and linked diagrams not fully reviewed.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "dr",
+    "url": "https://docs.cloud.google.com/architecture/dr-scenarios-planning-guide",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Basics of DR planning incl. RTO/RPO/HA. Rest of series and diagram not reviewed in detail.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "run",
+    "url": "https://docs.cloud.google.com/run/docs/overview/what-is-cloud-run",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Services, autoscaling, scale to zero, disposable filesystem, and resource types excerpts. Not every linked guide or diagram reviewed.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "sql",
+    "url": "https://docs.cloud.google.com/sql/docs/mysql/introduction",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Overview and operations responsibilities in main article; diagram not reviewed.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "bigquery",
+    "url": "https://docs.cloud.google.com/bigquery/docs/introduction",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Introduction excerpt only; rest not yet read.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "pubsub",
+    "url": "https://docs.cloud.google.com/pubsub/docs/overview",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Overview, service-to-service use and integrations excerpts; linked delivery semantics docs not yet read.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "vpc",
+    "url": "https://docs.cloud.google.com/vpc/docs/vpc",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Official search excerpt confirming global VPC and regional subnet; full page not yet read.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "wif",
+    "url": "https://docs.cloud.google.com/iam/docs/workload-identity-federation",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Official search excerpts for token exchange, direct access and impersonation; full page not yet read.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "slo",
+    "url": "https://sre.google/workbook/implementing-slos/",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Page located/opened; substantive text review pending. Link is reading assignment, not completed source understanding.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "rollout",
+    "url": "https://docs.cloud.google.com/run/docs/rollouts-rollbacks-traffic-migration",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "partial",
+    "coverage": "Page located/opened. Traffic-splitting capability verified separately via Cloud Run overview; detailed instructions not yet read.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "altostrat_media",
+    "url": "https://services.google.com/fh/files/misc/v6.1_pca_altostrat_media_case_study_english.pdf",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "full",
+    "coverage": "All pages; see matching local source note and PDF visual overview.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "cymbal_retail",
+    "url": "https://services.google.com/fh/files/misc/v6.1_pca_cymbal_retail_case_study_english.pdf",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "full",
+    "coverage": "All pages; see matching local source note and PDF visual overview.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "ehr_healthcare",
+    "url": "https://services.google.com/fh/files/misc/v6.1_pca_ehr_healthcare_case_study_english.pdf",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "full",
+    "coverage": "All pages; see matching local source note and PDF visual overview.",
+    "learnerState": "not assessed"
+  },
+  {
+    "id": "knightmotives_automotive",
+    "url": "https://services.google.com/fh/files/misc/v6.1_pca_knightmotives_automotive_case_study_english.pdf",
+    "checkedOn": "2026-10-13",
+    "timezone": "Asia/Singapore",
+    "depth": "full",
+    "coverage": "All pages; see matching local source note and PDF visual overview.",
+    "learnerState": "not assessed"
+  }
+]

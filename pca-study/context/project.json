@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "name": "Google Cloud PCA — studio belajar",
+  "mode": "study",
+  "goal": "Mampu memilih dan menjelaskan keputusan arsitektur Google Cloud serta mempersiapkan ujian PCA standard",
+  "deadline": "",
+  "timezone": "Asia/Singapore",
+  "source_roots": [
+    "references"
+  ]
+}
